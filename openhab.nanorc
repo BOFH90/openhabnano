@@ -1,7 +1,7 @@
 syntax "rules" ".rules"
 
 # Commands
-color cyan "\<(import|var|say|if|else|postUpdate|switch|println|case|or|sendCommand)\>"
+color cyan "\<(import|var|say|if|else|postUpdate|switch|println|case|or|sendCommand|sendTelegram)\>"
 
 # Keywords
 color green "\<(Timer|Number|String)\>"
