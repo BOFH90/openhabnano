@@ -12,6 +12,10 @@ color magenta "\<(cron|is)\>"
 color magenta "\<(started|shuts|down)\>"
 color magenta "\<(name|label|item|period|refresh|icon|mapping|minValue|maxValue|step|switchsupport|url|height|playStream|setMasterVolume|increaseMasterVolume|decreaseMasterVolume)\>"
 
+# Commands
+color green "\<(ON|on|CLOSED|closed)\>"
+color red "\<(OFF|off|OPEN|open)\>"
+
 # Operators
 color yellow "[:;,+*|=!\%]" "<" ">" "/" "-" "&"
 
@@ -32,9 +36,6 @@ syntax "sitemaps" ".sitemap"
 color magenta "\<(Switch|Selection|Slider|List|Setpoint|Video|Chart|Webview|Colorpicker)\>"
 color magenta "\<(Text|Group|Image|Frame)\>"
 color magenta "\<(name|label|item|period|refresh|icon|mappings|minValue|maxValue|step|switchsupport|url|height|refresh|visibility|valuecolor)\>"
-
-# Commands
-color green "\<(ON|OFF|on|off)\>"
 
 # Numbers
 color red "\b([0-9]+(\.[0-9]+)?)\b"
